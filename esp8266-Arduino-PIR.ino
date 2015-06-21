@@ -10,9 +10,9 @@
 #include "DHT.h"
 #include "_passwords.h"
 
-#define PIRPIN 14 // This is where PIR is connected
+#define PIRPIN 5 // This is where PIR is connected
 
-#define DHTPIN 5 // This is where DHT is connected
+#define DHTPIN 2 // This is where DHT is connected
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 DHT dht(DHTPIN, DHTTYPE, 15);
 float t_old = 99.00; // Dummy, unset temperature
